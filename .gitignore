@@ -1,0 +1,14 @@
+# Environments / build artifacts
+.venv/
+__pycache__/
+*.pyc
+
+# Large local data & models (regenerate with scripts/prepare_data.py, run labs in order)
+data/
+models/
+
+# OS / IDE
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
