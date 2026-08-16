@@ -1,0 +1,9 @@
+﻿Importing the application ...
+  from EmotionDetection.emotion_detection import emotion_detector
+OK - application imported without errors.
+
+Testing the application ...
+  result = emotion_detector('I am so glad this happened')
+  result -> {'anger': 0.012, 'disgust': 0.008, 'fear': 0.012, 'joy': 0.902, 'sadness': 0.066, 'dominant_emotion': 'joy'}
+
+OK - application tested without any errors.

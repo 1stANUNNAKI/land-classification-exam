@@ -1,0 +1,15 @@
+test_emotion_detector_anger (test_emotion_detection.TestEmotionDetector.test_emotion_detector_anger)
+The dominant emotion should be anger for an angry statement. ... ok
+test_emotion_detector_disgust (test_emotion_detection.TestEmotionDetector.test_emotion_detector_disgust)
+The dominant emotion should be disgust for a disgusting statement. ... ok
+test_emotion_detector_fear (test_emotion_detection.TestEmotionDetector.test_emotion_detector_fear)
+The dominant emotion should be fear for a fearful statement. ... ok
+test_emotion_detector_joy (test_emotion_detection.TestEmotionDetector.test_emotion_detector_joy)
+The dominant emotion should be joy for a happy statement. ... ok
+test_emotion_detector_sadness (test_emotion_detection.TestEmotionDetector.test_emotion_detector_sadness)
+The dominant emotion should be sadness for a sad statement. ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK

@@ -1,0 +1,2 @@
+﻿from EmotionDetection.emotion_detection import emotion_detector -> OK
+EmotionDetection is a valid package.

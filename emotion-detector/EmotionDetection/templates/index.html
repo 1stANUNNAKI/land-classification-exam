@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emotion Detector</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container" style="margin-top: 60px;">
+    <h1>Emotion Detector</h1>
+    <p>Analyze a statement and discover its dominant emotion with IBM Watson NLP.</p>
+
+    {% if error %}
+    <div id="error_message" class="alert alert-danger" role="alert">{{ error }}</div>
+    {% endif %}
+
+    <div class="form-group">
+        <label for="textToAnalyze">Enter your statement here:</label>
+        <textarea class="form-control" id="textToAnalyze" rows="4"
+                  placeholder="Type a statement, for example: I am so glad this happened"></textarea>
+    </div>
+    <button class="btn btn-primary" onclick="RunSentimentAnalysis()">Analyze</button>
+
+    <div id="system_response" class="mt-3" style="font-size: 16px;">
+        {% if result_text %}{{ result_text }}{% endif %}
+    </div>
+</div>
+<script src="{{ url_for('static', filename='mywebscript.js') }}"></script>
+</body>
+</html>

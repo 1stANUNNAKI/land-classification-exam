@@ -1,0 +1,18 @@
+﻿Testing the output format of emotion_detector ...
+
+Input: 'I am so glad this happened'
+Output: {'anger': 0.012, 'disgust': 0.008, 'fear': 0.012, 'joy': 0.902, 'sadness': 0.066, 'dominant_emotion': 'joy'}
+
+Input: 'I am really mad about this'
+Output: {'anger': 0.871, 'disgust': 0.099, 'fear': 0.008, 'joy': 0.004, 'sadness': 0.018, 'dominant_emotion': 'anger'}
+
+Input: 'I feel disgusted just hearing about this'
+Output: {'anger': 0.041, 'disgust': 0.798, 'fear': 0.011, 'joy': 0.006, 'sadness': 0.144, 'dominant_emotion': 'disgust'}
+
+Input: 'I am so sad about this'
+Output: {'anger': 0.022, 'disgust': 0.016, 'fear': 0.019, 'joy': 0.003, 'sadness': 0.94, 'dominant_emotion': 'sadness'}
+
+Input: 'I am really afraid that this will happen'
+Output: {'anger': 0.031, 'disgust': 0.055, 'fear': 0.811, 'joy': 0.022, 'sadness': 0.081, 'dominant_emotion': 'fear'}
+
+OK - output format is consistent for every statement.
