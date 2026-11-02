@@ -48,3 +48,9 @@ D:\امتحان\.venv\Scripts\python.exe D:\امتحان\scripts\build_notebooks
 - نماذج Module 3 (Q7/Q9) محفوظة ومحمّلة من `models/` — لا حاجة لإعادة التدريب
 - تدريب كامل يعمل على CPU فقط (20 خيطاً) — زمن Q8 الأقصى ~86 ثانية
 - ViT العميق (768/12/12) يعمل بـ pre-LN (`norm_first=True`) لضمان التقارب
+
+---
+
+## ًں¤‌ Contributing & Pull Request Guidelines
+
+Contributions, bug reports, and documentation improvements are welcome! Please open an issue or submit a Pull Request against the `main` branch.
