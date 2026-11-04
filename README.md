@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/homepage-preview.png" alt="land-classification-exam — Home Page Preview" width="100%" />
+</p>
+
 # مشروع امتحان — تصنيف الأراضي الزراعية باستخدام CNN و Vision Transformer
 
 واجب تقييمي مكوّن من **9 Labs** (Keras + PyTorch) حول التحميل الكفؤ للصور، الأغmentation،
